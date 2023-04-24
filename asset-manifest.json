@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/MyStore/static/css/main.95cd220d.css",
-    "main.js": "/MyStore/static/js/main.6f03295a.js",
-    "static/media/home.jpg": "/MyStore/static/media/home.b1d86e4025b8f85a50e0.jpg",
+    "main.css": "/MyStore/static/css/main.1eb6c9ab.css",
+    "main.js": "/MyStore/static/js/main.a4a5f1eb.js",
+    "static/media/menCat.jpg": "/MyStore/static/media/menCat.b03f281ddfaabd8bf824.jpg",
+    "static/media/wemen.jpg": "/MyStore/static/media/wemen.22ccc22ac1549329fedf.jpg",
+    "static/media/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg": "/MyStore/static/media/alyssa-strohmann-TS--uNw-JqE-unsplash.b1d86e4025b8f85a50e0.jpg",
+    "static/media/electro.jpg": "/MyStore/static/media/electro.8b42e92f4222da208e7b.jpg",
+    "static/media/jwel.jpg": "/MyStore/static/media/jwel.e970e18ab71cac3ef864.jpg",
+    "static/media/summer.jpeg": "/MyStore/static/media/summer.25b35c46e76f6fe044f0.jpeg",
     "index.html": "/MyStore/index.html",
-    "main.95cd220d.css.map": "/MyStore/static/css/main.95cd220d.css.map",
-    "main.6f03295a.js.map": "/MyStore/static/js/main.6f03295a.js.map"
+    "main.1eb6c9ab.css.map": "/MyStore/static/css/main.1eb6c9ab.css.map",
+    "main.a4a5f1eb.js.map": "/MyStore/static/js/main.a4a5f1eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.95cd220d.css",
-    "static/js/main.6f03295a.js"
+    "static/css/main.1eb6c9ab.css",
+    "static/js/main.a4a5f1eb.js"
   ]
 }
