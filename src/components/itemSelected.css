@@ -1,0 +1,27 @@
+.list-item {
+    display: grid;
+    padding: 80px;
+    width: 90vw;
+  }
+  
+  .show-cart li {
+    display: flex;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .card-img-top {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+  }
+  .total-cart{
+    padding: 5%;
+    border: 2px rgb(152, 148, 148) solid;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+  .some{
+    position: absolute;
+   right: 10%;
+  }

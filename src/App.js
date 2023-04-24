@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState,useContext ,useEffect} from 'react'
+import StorContext,{MyStore} from "./context/index";
+ import ProductList from "./components/ProductList"
+ import SideMenu from "./components/SideMenu"
+import { Routes, Route } from "react-router-dom";
+import Home from './components/Home';
+import "./App.css"
+import ContactUs from './components/ContactUs';
+import SaleProducts from './components/SaleProducts';
+import AboutUs from './components/AboutUs';
+import NewCollection from './components/NewCollection';
+import ItemsSelected from './components/ItemsSelected';
 
 function App() {
+ useContext(StorContext)
+
+ const [cardList,setCardList]=useState([])
+ const [data, setData]=useState([])
+ const [count,setCount]=useState(0)
+console.log(cardList);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div  id="app" style={({ height: "100vh" }, { display: "flex" })}>
+
+<StorContext.Provider value={{MyStore,cardList,count,setCardList,setCount,data, setData }}>
+  
+<SideMenu/>
+    <Routes>
+      {/* <Route path='/' element={<SideMenu/> }/> */}
+      <Route path='/' element={ <Home />}/>
+      <Route path='/products' element={ <ProductList/>}/>
+      <Route path='/contact-us' element={ <ContactUs/>}/>
+      <Route path='/about-us' element={ <AboutUs/>}/>
+      <Route path='/new-collection' element={ <NewCollection/>}/>
+      <Route path='/shop-list' element={ <ItemsSelected/>}/>
+      <Route path='/sale' element={ <SaleProducts/>}/>
+     
+    </Routes>
+    
+      </StorContext.Provider>
+      
+   
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+

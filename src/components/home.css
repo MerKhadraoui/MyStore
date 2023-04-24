@@ -1,0 +1,42 @@
+
+.home-page{
+    width: 100%;
+    background-image: url("../../public/image/home.jpg");
+}
+.home-box .col{ 
+    display: flex;
+justify-content: center;
+}
+
+.show-cart li {
+    display: flex;
+  }
+  .card {
+    padding: 20px;
+    background-color: rgba(245, 245, 220, 0.363);
+  }
+  .card-img-top {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+  }
+  .in-box{
+    margin-left: 5%;
+    padding: 10%;
+    width: 90%;
+    height: 30vw;
+    background-color: rgba(109, 106, 102, 0.61);
+  }
+  .in-box h1{
+    margin-left: 5%;
+    font-family: "Sofia", sans-serif;
+  }
+  .in-box p{
+    margin-left: 4%;
+    font-size: 4rem;
+    font-family: "Sofia", sans-serif;
+  }
+  .out-box{
+    border: 0.5rem rgb(112, 110, 110) solid;
+    padding: 40px;
+  }
