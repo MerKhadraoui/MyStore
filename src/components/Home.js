@@ -2,9 +2,15 @@ import NavBar from './NavBar';
 import React, { useContext } from 'react';
 import StorContext from '../context'
 import "./home.css"
+import CatImage from "./wemen.jpg"
+import MenCatgory from "./menCat.jpg"
+import Jewelery from "./jwel.jpg"
+import Electro from "./electro.jpg"
 const Home = () => {
   const {data, setData}= useContext(StorContext)
-// console.log(data);
+console.log(data);
+const currentAdress=window.location.href
+console.log(currentAdress);
   return (
     <div className='home-page'>
 <NavBar/>
@@ -18,7 +24,8 @@ const Home = () => {
 {/* <img className='homePage' src='image/home.jpg' alt='imag'/> */}
 <div class="col">
         <div class="card" style={{width: "20rem"}}>
-  <img class="card-img-top" src="image/menCat.jpg" alt="Card image cap"/>
+
+  <img class="card-img-top" src={MenCatgory} alt="Card"/>
   <div class="card-block">
     <h4 class="card-title">MEN'S CLOTHING</h4>
     <p class="card-text">new collections</p>
@@ -27,8 +34,8 @@ const Home = () => {
 </div>
 <div class="col">
         <div class="card" style={{width: "20rem"}}>
-  <img class="card-img-top" src="image/electro.jpg" alt="Card image cap"/>
-  <div class="card-block">
+  <img class="card-img-top" src={Electro} alt="Card  cap"/>
+  <div  class="card-block">
     <h4 class="card-title">  ELECTRONICS
 </h4>
     <p class="card-text">new Technology</p>
@@ -37,7 +44,7 @@ const Home = () => {
 </div></div>
  <div class="col">
         <div class="card" style={{width: "20rem"}}>
-  <img class="card-img-top" src="image/jwel.jpg" alt="Card image cap"/>
+  <img class="card-img-top" src={Jewelery}alt="Card cap"/>
   <div class="card-block">
     <h4 class="card-title">  JEWELERY
 </h4>
@@ -47,7 +54,7 @@ const Home = () => {
 </div></div>
 <div class="col">
         <div class="card" style={{width: "20rem"}}>
-  <img class="card-img-top" src="image/wemen.jpg" alt="Card image cap"/>
+  <img class="card-img-top" src={CatImage} alt="Card"/>
   <div class="card-block">
     <h4 class="card-title"> WOMEN'S CLOTHING
 </h4>

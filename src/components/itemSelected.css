@@ -19,9 +19,10 @@
     padding: 5%;
     border: 2px rgb(152, 148, 148) solid;
     height: 4rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .some{
-    position: absolute;
-   right: 10%;
+    padding-bottom: 5rem;
+     position: absolute;
+  right: 10rem;
   }

@@ -1,16 +1,18 @@
 .nav-bar {
     list-style-type: none;
+    width: 100vw;
     height: 3.1rem;
     display:grid ;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: rgba(250, 235, 215, 0);
 
   }
   .search{
 
   position: absolute;
-  right: 20px;
+  left: 20rem;
  
   }
   
@@ -22,7 +24,7 @@
   }
   li a {
     display: block;
-    color: rgb(117, 109, 109);
+    color: rgb(55, 53, 53);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

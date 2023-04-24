@@ -1,7 +1,7 @@
 
 .home-page{
     width: 100%;
-    background-image: url("../../public/image/home.jpg");
+    background-image: url("../../public/image/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg");
 }
 .home-box .col{ 
     display: flex;
@@ -14,6 +14,8 @@ justify-content: center;
   .card {
     padding: 20px;
     background-color: rgba(245, 245, 220, 0.363);
+    height: 10rem;
+
   }
   .card-img-top {
     width: 300px;
@@ -24,7 +26,7 @@ justify-content: center;
     margin-left: 5%;
     padding: 10%;
     width: 90%;
-    height: 30vw;
+    height: 27vw;
     background-color: rgba(109, 106, 102, 0.61);
   }
   .in-box h1{
@@ -40,3 +42,7 @@ justify-content: center;
     border: 0.5rem rgb(112, 110, 110) solid;
     padding: 40px;
   }
+ .btn{
+  
+  background-color: #e7e7e7; color: black;}
+
