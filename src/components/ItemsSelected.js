@@ -26,27 +26,20 @@ console.log(total, check);
                 <a href="./product.html">
                   <img class="img-fluid"   src={item.image} alt="..."/>
                 </a>
-
               </div>
               <div class="col-8">
-
-             
                 <p class="font-size-sm font-weight-bold mb-6">
                   <a class="text-body" href="./product.html" >{item.title}</a>
                   <span class="text-muted">{item.price}€</span>
                 </p>
-
-               
                 <div class="d-flex align-items-center">
 
-               
                   {/* <select class="custom-select custom-select-xxs w-auto">
                     <option value="1">1</option>
                     <option value="1">2</option>
                     <option value="1">3</option>
                   </select> */}
 
-                  
                   <button onClick={deleteHandel} name={item.price} class="font-size-xs text-gray-400 ml-auto" value={item.id}>
                     <i class="fe fe-x"></i> Remove
                   </button>
